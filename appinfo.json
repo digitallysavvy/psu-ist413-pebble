@@ -1,0 +1,19 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "hermes@digitally-savvy.com",
+    "longName": "EmergencyWatch",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "shortName": "EmergencyWatch",
+    "uuid": "3ee5289f-bb64-4373-9ff0-fee7e571a33b",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
