@@ -1,0 +1,19 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "hermes@digitally-savvy.com",
+    "longName": "MotionCapture",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "shortName": "MotionCapture",
+    "uuid": "77915479-dc4f-41c5-9422-4eaac742902a",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
