@@ -193,6 +193,7 @@ static void main_window_load(Window *window){
   update_time();
 }
 
+// Memory Management
 static void main_window_unload(Window *window){
   // Destroy Textlayer
   text_layer_destroy(s_time_layer);
@@ -221,7 +222,9 @@ static void tick_handler(struct tm *tick_time, TimeUnits units_changed) {
   }
 }
 
+///////////////////////////////////
 // App Messaging
+///////////////////////////////////
 static void inbox_received_callback(DictionaryIterator *iterator, void *context) {
   
   // Store incoming information
@@ -257,6 +260,7 @@ static void inbox_received_callback(DictionaryIterator *iterator, void *context)
   
 }
 
+// App Messaging Methods that must be defined for implementation but not used at this time
 static void inbox_dropped_callback(AppMessageResult reason, void *context) {
   APP_LOG(APP_LOG_LEVEL_ERROR, "Message dropped!");
 }
@@ -269,6 +273,9 @@ static void outbox_sent_callback(DictionaryIterator *iterator, void *context) {
   APP_LOG(APP_LOG_LEVEL_INFO, "Outbox send success!");
 }
 
+///////////////////////////////////
+// App Initialization
+///////////////////////////////////
 static void init(){
   
   // Create main Window element and assign to pointer
@@ -301,6 +308,10 @@ static void init(){
   timer = app_timer_register(ACCEL_STEP_MS, timer_callback, NULL);
 }
 
+
+///////////////////////////////////
+// Memory Management
+///////////////////////////////////
 static void deinit(){
   accel_data_service_unsubscribe();
   window_destroy(main_window);
