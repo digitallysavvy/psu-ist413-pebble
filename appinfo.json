@@ -7,16 +7,16 @@
         "location"
     ],
     "companyName": "hermes@digitally-savvy.com",
-    "longName": "EmergencyWatch",
+    "longName": "EmergencyWatch_Alpha",
     "projectType": "native",
     "resources": {
         "media": []
     },
-    "shortName": "EmergencyWatch",
+    "shortName": "EmergencyWatch_Alpha",
     "uuid": "3ee5289f-bb64-4373-9ff0-fee7e571a33b",
     "versionCode": 1,
     "versionLabel": "1.0",
     "watchapp": {
-        "watchface": true
+        "watchface": false
     }
 }
