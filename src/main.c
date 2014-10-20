@@ -250,6 +250,8 @@ static void init(){
 static void deinit(){
   window_destroy(main_window);
   gbitmap_destroy(action_bar_call_icon);
+  gbitmap_destroy(action_bar_up_icon);
+  gbitmap_destroy(action_bar_down_icon);
   action_bar_layer_remove_from_window(action_bar);
 }
 
