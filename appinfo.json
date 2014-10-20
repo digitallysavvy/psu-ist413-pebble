@@ -1,0 +1,38 @@
+{
+    "appKeys": {
+        "KEY_CONDITIONS": 1,
+        "KEY_TEMPERATURE": 0
+    },
+    "capabilities": [
+        "location"
+    ],
+    "companyName": "hermes@digitally-savvy.com",
+    "longName": "Team3-EmergencyBeta",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/down_scroll.png",
+                "name": "IMAGE_ACTION_ICON_DOWN",
+                "type": "png"
+            },
+            {
+                "file": "images/up_scroll.png",
+                "name": "IMAGE_ACTION_ICON_UP",
+                "type": "png"
+            },
+            {
+                "file": "images/call_icon.png",
+                "name": "IMAGE_ACTION_ICON_CALL",
+                "type": "png"
+            }
+        ]
+    },
+    "shortName": "Team3-EmergencyBeta",
+    "uuid": "745c5631-0a1b-4037-92c5-1bc3b1377a6b",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
